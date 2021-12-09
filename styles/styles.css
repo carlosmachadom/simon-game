@@ -19,14 +19,14 @@ html {
     grid-template-rows: auto 1fr auto;
 }
 
-.header-game {
-    font-size: 2.4rem;
-    color: rgb(128, 0, 128);
-}
-
 .header-game, .footer-game {
     padding: 2rem;
     text-align: center;
+}
+
+.header-game h1 {
+    font-size: 2.8rem;
+    color: rgb(128, 0, 128);
 }
 
 .main-game {
@@ -83,7 +83,8 @@ html {
     transform: translate(-50%, -50%);
 
     width: 60%;
-    height: 80px;
+    height: 25%;
+    max-height: 80px;
 
     cursor: pointer;
     color: rgb(128, 0, 128);
