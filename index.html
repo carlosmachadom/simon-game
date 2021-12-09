@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Simón dice</title>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <script src="./scripts/index.js" defer></script>
+        <link rel="shorcut icon" href="./assets/icons/game.png" />
+        <meta name="keywords" content="simon, JavaScript" />
+        <meta name="author" content="Carlos Machado" />
+        <meta name="description" content="JavaScript exercise for building a game" />
+    </head>
+    <body class="body-game">
+        <header class="header-game">
+            <h1>Simon says...</h1>
+        </header>
+
+        <main class="main-game">
+            <section class="game-board">
+                <div class="button blue-button" data-color="blue-button" ></div>
+                <div class="button red-button" data-color="red-button"></div>
+                <div class="button yellow-button" data-color="yellow-button"></div>
+                <div class="button green-button" data-color="green-button"></div>
+
+                <button type="button" class="start-button" onclick="startGame()">Start!</button>
+            </section>
+        </main>
+        
+        <footer class="footer-game">
+            <h3>Made with ♥ for Carlos Machado</h3>
+        </footer>
+    </body>
+</html>
