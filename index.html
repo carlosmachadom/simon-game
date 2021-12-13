@@ -7,6 +7,7 @@
         <title>Simón dice</title>
         <link rel="stylesheet" href="./styles/styles.css" />
         <script src="./scripts/index.js" defer></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
         <link rel="shorcut icon" href="./assets/icons/game.png" />
         <meta name="keywords" content="simon, JavaScript" />
         <meta name="author" content="Carlos Machado" />
@@ -14,15 +15,15 @@
     </head>
     <body class="body-game">
         <header class="header-game">
-            <h1>Simon says...</h1>
+            <h1>Simon says!</h1>
         </header>
 
         <main class="main-game">
             <section id="game-board" class="game-board">
-                <div id="blue-button" class="button blue-button" data-color="blue-button" ></div>
-                <div id="red-button" class="button red-button" data-color="red-button"></div>
-                <div id="yellow-button" class="button yellow-button" data-color="yellow-button"></div>
-                <div id="green-button" class="button green-button" data-color="green-button"></div>
+                <div id="blue" class="button blue" data-color="blue" ></div>
+                <div id="red" class="button red" data-color="red"></div>
+                <div id="yellow" class="button yellow" data-color="yellow"></div>
+                <div id="green" class="button green" data-color="green"></div>
 
                 <button id="start-button" class="start-button" onclick="startGame()">Start!</button>
             </section>

@@ -57,43 +57,43 @@ html {
     cursor: pointer;
 }
 
-.game-board .button.blue-button {
+.game-board .button.blue {
     background-color: rgb(30,144,255);
     border-radius: 100% 0 0 0;
 }
 
-.game-board .button.blue-button.light {
+.game-board .button.blue.light {
     background-color: rgb(112, 181, 250);
 }
 
-.game-board .button.red-button {
+.game-board .button.red {
     background-color: rgb(251, 34, 57);
     border-radius: 0 100% 0 0;
 }
 
-.game-board .button.red-button.light {
+.game-board .button.red.light {
     background-color: rgb(250, 104, 119);
 }
 
-.game-board .button.yellow-button {
+.game-board .button.yellow {
     background-color: rgb(255,234,55);
     border-radius: 0 0 0 100%;
 }
 
-.game-board .button.yellow-button.light {
+.game-board .button.yellow.light {
     background-color: rgb(250, 239, 139);
 }
 
-.game-board .button.green-button {
+.game-board .button.green {
     background-color: rgb(62,221,75);
     border-radius: 0 0 100% 0;
 }
 
-.game-board .button.green-button.light {
+.game-board .button.green.light {
     background-color: rgb(132, 247, 142);
 }
 
-.game-board button {
+.game-board button.start-button {
     position: absolute;
     top: calc(50% - 40px);
     left: calc(50% - 30%);
@@ -116,6 +116,10 @@ html {
     animation: infinite 1.5s pulse;
 }
 
+button.start-button.hide {
+    display: none;
+}
+
 @keyframes pulse {
     0% {
         transform: scale(1.2);
@@ -131,7 +135,7 @@ html {
     
 }
 
-.game-board button:hover {
+.game-board button.start-button:hover {
     background-color: rgb(128, 0, 128);
     color: rgb(255,255,255);
     border-color: rgb(255,255,255);
